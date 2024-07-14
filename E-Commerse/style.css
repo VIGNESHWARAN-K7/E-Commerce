@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    font-family: "Poppins", sans-serif;
+    text-transform: capitalize;
+    /* font-size: 10px; */
+}
+.gray{
+    background: #e5e5e5;
+}
+body{
+    background: #e5e5e5;
+}
+
+.navbar{
+    background:whitesmoke;
+}
+ 
+.nav-link:hover{
+    transition: .5s;
+    color: orangered;
+}
+.d-none input{
+    height: 30px !important;
+    width: 150px !important;
+    margin-bottom: 10px !important;
+}
+.d-none button{
+    margin-bottom: 10px !important;
+    width: 70px;
+    height: 30px;
+}
+.carousel-item img{
+    border-radius: 20px;
+}
+a{
+    text-transform: capitalize;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+p{
+    text-indent: 30px;
+    text-align: justify;
+}
+.button{
+    width: 200px !important;
+    height: 60px !important;
+    margin-top: 15px;
+
+  
+}
+.flex-grow-1{
+    width: 700px !important;
+    padding: 0 !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttn{
+    width: 70px;
+    height: 30px;
+    margin-top: 15px;
+
+  
+}
+.btn-outline-dark{
+    width: 100px;
+}
+
+.form-control{
+    text-transform: none;
+}
+.nav-link{
+    margin-left: 40px !important;
+    transition: ease-in !important;
+    transition-duration: .1s !important;
+
+}
+
+.floatingInput{
+    text-transform: none !important;
+}
+
+.col-4{
+    border: 2px solid;
+}
+
+
+.flex-lg-column .btn{
+    width: 200px;
+    margin-bottom: 20px;
+} 
+.flex-lg-column input{
+    width: 500px;
+}
+
+.offcanvas {
+    width: 700px !important;
+}
+
+.carousel-control-prev-icon{
+    background-color:rgb(251, 196, 147);
+    color: white;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+}
+.carousel-control-next-icon{
+    background-color:rgb(246, 201, 162);
+    color: white;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+}
+
+.para{
+    color: blue;
+}
+.w-5{
+    width: 700px;
+   
+}
+i{
+    font-size: 25px;
+}
+.fa-heart{
+    color: red !important;
+    font-size: 22px;
+    margin: 10px 0 0 0 !important;
+    
+}
+.fa-cart-shopping{
+    color: rgb(83, 129, 229);
+    font-size: 20px;
+    margin: 10px !important;
+}
+.icon{
+    /* margin-left: 50px !important; */
+    margin-left: 20px !important;
+    position: relative !important;
+}
+
+.icon::before{
+    content: "7" !important;
+    position: absolute !important;
+    top: -15px !important;
+    left: 20px !important;
+    height: 20px !important;
+    width: 20px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+    color: whitesmoke ;
+    font-weight: 700;
+    border-radius: 20px !important;
+    background: rgb(11, 78, 234) !important;
+
+}
+
+.icon1{
+    position: relative !important;
+}
+
+.icon1::before{
+    content: "5" !important;
+    position: absolute !important;
+    top: -15px !important;
+    left: 20px !important;
+    height: 20px !important;
+    width: 20px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+    color: whitesmoke ;
+    font-weight: 700;
+    border-radius: 20px !important;
+    background: rgb(11, 78, 234) !important;
+
+}
+.w-5 span{
+    color: rgb(16, 16, 236);
+}
+
+.fa-paper-plane{
+    color: rgb(28, 164, 237);
+    font-size: 25px !important;
+}
+
+.follow i{
+    font-size: 25px;
+
+}
+.fa-github{
+    color:purple;
+}
+.fa-square-whatsapp{
+    color:rgb(20, 219, 20);
+}
+.fa-instagram{
+    color:rgb(240, 40, 80);
+}
+.fa-youtube{
+    color:red;
+}
+.fa-facebook{
+    color:blue;
+}
+.fa-twitter{
+    color:rgb(34, 172, 241);
+}
+
+.winter{
+    background: lightblue;
+    min-height: 90vh;
+}
+.winter img{
+    min-height: 90vh !important;
+}
+
+.shop{
+    width: 500px !important;
+    height: 90px;
+    /* margin: 100px 500px !important; */
+    transition: .5s ease-out;
+}
+.shop:hover{
+    background: rgb(63, 112, 235) !important;
+    /* transition: ease-in-out !important; */
+}
+.inou{
+    height: 40px;
+}
+
+.feature{
+    background: #e5e5e5;
+}
+
+.img img{
+    height: 300px !important;
+    margin-bottom: 20px;
+}
+
+.inout{
+    width: 100px !important;
+}

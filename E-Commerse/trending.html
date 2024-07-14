@@ -1,0 +1,410 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>kids</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+
+     <!--font awsome-->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+     <!--css link-->
+    <link rel="stylesheet" href="kids.css">
+  </head>
+
+  <body>
+    
+    
+    <nav class="navbar navbar-expand-lg sticky-top">
+      <div class="container-fluid">
+        <a class="navbar-brand h1 fs-5 me-auto mb-3" href="#">Collections</a>
+       
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title fs-5" id="offcanvasNavbarLabel">welcome to our site </h5>
+            <button type="button" class="btn-close rounded-4" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-center gap-4 gap-lg-0 flex-lg-grow-1 pe-3">
+                  <li class="nav-item">
+                  <a class="nav-link  border-primary my-lg-3 " aria-current="page" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link text-danger my-lg-3" href="trending.html">Trending</a>
+                  </li>
+                  <li class="nav-item">
+                  <a class="nav-link  my-lg-3 position-relative" href="catrgory.html">category
+                      <span class="position-absolute  top-4  start-100 translate-middle badge rounded-pill bg-danger">new</span>
+                  </a>
+                  </li>
+                  
+                  
+                  <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle my-lg-3  position-relative" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Collections
+
+                          <span class="position-absolute  top-4   start-100 translate-middle badge rounded-pill bg-danger">all</span>
+                      </a>
+                      <ul class="dropdown-menu justify-content-center w-50 mx-5 gap-2 ">
+                          <li><a class="dropdown-item " href="kids.html">Kids</a></li>
+                          <li><a class="dropdown-item " href="mens.html">Mens</a></li>
+                          <li><a class="dropdown-item " href="womens.html">Womens</a></li>
+                         
+                      
+                      </ul>
+                  </li>
+
+
+                  <li class="nav-item dropdown">
+                      <a class="nav-link my-lg-3 dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">pages</a>
+                      <ul class="dropdown-menu justify-content-center w-50 mx-5 gap-2 ">
+                          <li><a class="dropdown-item " href="#">Login</a></li>
+                          <li><a class="dropdown-item " href="#">Blog</a></li>
+                          <li><a class="dropdown-item " href="#">Feedback</a></li>
+                          <li><a class="dropdown-item " href="#">Another action</a></li>
+                          <li><a class="dropdown-item " href="#">Another action</a></li>
+                          
+                      
+                      </ul>
+                  </li>
+
+                 
+                  </li>
+                  <li class="nav-item me-3">
+                  <a class="nav-link  my-lg-3" href="#">Contact</a>
+                  </li>
+             
+              </ul>
+            <form class="d-lg-flex d-none mt-3 " role="search">
+              <input class="form-control me-2 my-lg-1 h-100  img-fluid inout" type="search" placeholder="Search" aria-label="Search" id="inp">
+              <button class="btn btn-outline-success  my-lg-1 img-fluid inou" type="submit">Search</button>
+            </form>
+              <li class="nav-item m-3 icon d-lg-block d-none">
+                  <i class="fa-solid fa-heart d-lg-block d-none position-relative"></i>
+              </li>
+              <li class="nav-item m-3 icon1 d-lg-block d-none">
+                  <i class="fa-solid fa-cart-shopping   position-relative"></i>
+              </li>
+
+           
+              <a href="signin.html" class="text-decoration-none my-lg-2"><button class="btn btn-outline-primary   d-lg-block d-none ">Signin</button></a>
+            
+          </div>
+              
+        </div>
+        
+          <div class="dropdown bg-body-secondary img-fluid d-lg-none  d-block mx-1">
+              <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Signin</button>
+          
+
+              <div class="offcanvas offcanvas-start" tabindex="1"id="offcanvasRight"aria-labelledby="offcanvasRightLabel">
+                      <div class="offcanvas-header">
+                          <h5 class="offcanvas-title text-capitalize fs-5" id="offcanvasRightLabel">signin our page :</h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                      </div>
+                      <div class="offcanvas-body">
+                          <form action="index.html">
+                              <div class="div">
+                                  
+                                  <div class="form-floating mb-lg-4 mb-2">
+                                      <input type="email" class="form-control img-fluid  " placeholder="name@example.com " required>
+                                      <label for="floatingInput ">Enter email</label>
+                                  </div>
+                                  <div class="form-floating   ">
+                                      <input type="password" class="form-control img-fluid "  placeholder="Password " required>
+                                      <label for="floatingPassword  ">Password</label>
+                                  </div>
+                              <a href=""><button class="btn btn-outline-info mt-4 p-2 rounded-4 img-fluid ">submit</button></a>
+                              </div>
+                          </form>
+                  </div>
+              </div>
+              
+          </div>
+          <button class="navbar-toggler rounded-3" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+      
+  </nav>
+
+    <section class="container-fluid winter mb-3 d-none d-lg-block">
+      <div class="row">
+          <div class="col-md-5 d-md-block d-none">
+              <img src="" alt="" class="img-fluid ">
+          </div>
+          <div class="col-md-7 col-6 my-auto d-md-block d-none discount">
+              <h1 class="display-5 text-capitalize text-center my-lg-5 animate__animated  animate__zoomInDown img-fluid">35% discoun on
+              </h1>
+             <h1 class="display-3 text-capitalize my-auto text-center animate__animated  animate__zoomInDown  img-fluid">trending collections</h1>
+          </div>
+      </div>
+  </section>
+
+
+
+
+
+    <section class="container-fluid">
+      <div class="row mb-lg-5">
+        <div class="col-md-6 col-12 col-lg-4">
+          <div class="card mb-3" >
+            <div class="row g-0">
+              <div class="col-md-4 ">
+                <img src="/Images/trend 2.webp" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title my-lg-5">yellow hoodie</h5>
+                  <p class="card-text card-title  text-capitalize  d-block ">limited period offer! only <span class="">$75</span> </p>
+                  <p class="card-text"><small class="text-body-secondary">Last updated 30 mins ago</small></p>
+                </div>
+                <p class="mx-5 text-success text-capitalize " id="tot1"></p>
+              
+                <div class="conrainer  d-flex mx-5">
+                  <span id="inc1" class="btn btn-outline-primary mx-3 number">+</span>
+                  <span id="amount1" class="btn btn-outline-success  number">1</span>
+                  <span id="dec1" class="btn btn-outline-primary mx-3 number" >-</span>
+                  
+                 
+                </div>
+                <a href="payment.html"><button class="btn btn-outline-primary text-center text-capitalize mx-5 mt-3">order now </button></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-12 col-lg-4">
+          <div class="card mb-3" >
+            <div class="row g-0"  >
+              <div class="col-md-4" >
+                <img src="/Images/trend 4.jpeg" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title my-lg-5">white jean</h5>
+                  <p class="card-text text-capitalize ">limited period offer! only $100</p>
+                  <p class="card-text"><small class="text-body-secondary">Last updated 12 mins ago</small></p>
+                </div>
+                <p class="mx-5 text-success text-capitalize " id="tot2"></p>
+             
+                <div class="conrainer d-flex mx-5">
+                  <span id="inc2" class="btn btn-outline-primary mx-3 number">+</span>
+                  <span id="amount2" class="btn btn-outline-success  number">1</span>
+                  <span id="dec2" class="btn btn-outline-primary mx-3 number" >-</span>
+                  
+                 
+                </div>
+                <a href="payment.html"><button class="btn btn-outline-primary text-center text-capitalize mx-5 mt-3">order now </button></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-12 col-lg-4 img-fluid ">
+          <div class="card mb-3" >
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="/Images/trend 5.jpeg" class="img-fluid rounded-start" alt="..." height="400px">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title my-lg-5">blue jean</h5>
+                  <p class="card-text  text-capitalize ">limited period offer! only $125</small></p>
+                  <p class="card-text"><small class="text-body-secondary">Last updated 7 mins ago</small></p>
+                </div>
+                <p class="mx-5 text-success text-capitalize " id="tot3"></p>
+              
+                <div class="conrainer d-flex mx-5">
+                  <span id="inc3" class="btn btn-outline-primary mx-3 number">+</span>
+                  <span id="amount3" class="btn btn-outline-success  number">1</span>
+                  <span id="dec3" class="btn btn-outline-primary mx-3 number" >-</span>
+                  
+                 
+                </div>
+                <a href="payment.html"><button class="btn btn-outline-primary text-center text-capitalize mx-5 mt-3">order now </button></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row mt-lg-5">
+        <div class="col-md-6 col-12 col-lg-4">
+          <div class="card mb-3" >
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="/Images/trend 6.webp" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title my-lg-5">travelling collections</h5>
+                  <p class="card-text text-capitalize">limited period offer! only $175.</p>
+                  <p class="card-text"><small class="text-body-secondary">Last updated 43 mins ago</small></p>
+                </div>
+                <p class="mx-5 text-success text-capitalize " id="tot4"></p>
+               
+                <div class="conrainer d-flex mx-5">
+                  <span id="inc4" class="btn btn-outline-primary mx-3 number">+</span>
+                  <span id="amount4" class="btn btn-outline-success  number">1</span>
+                  <span id="dec4" class="btn btn-outline-primary mx-3 number" >-</span>
+                  
+                 
+                </div>
+                <a href="payment.html"><button class="btn btn-outline-primary text-center text-capitalize mx-5 mt-3">order now </button></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-12 col-lg-4">
+          <div class="card mb-3" >
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="/Images/trend 8.jpeg" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title my-lg-5">black lycra</h5>
+                  <p class="card-text text-capitalize">limited period offer! only $90</small></p>
+                  <p class="card-text"><small class="text-body-secondary">Last updated 1 hour ago</small></p>
+                </div>
+                <p class="mx-5 text-success text-capitalize " id="tot5"></p>
+          
+                <div class="conrainer d-flex mx-5">
+                  <span id="inc5" class="btn btn-outline-primary mx-3 number">+</span>
+                  <span id="amount5" class="btn btn-outline-success number ">1</span>
+                  <span id="dec5" class="btn btn-outline-primary mx-3 number" >-</span>
+                  
+                 
+                </div>
+                <a href="payment.html"><button class="btn btn-outline-primary text-center text-capitalize mx-5 mt-3">order now </button></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-md-6 col-12 col-lg-4 img-fluid ">
+          <div class="card mb-3" >
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="/Images/trend1.jpeg" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title my-lg-5">gray hoodie</h5>
+                  <p class="card-text text-capitalize mb-lg-6">limited period offer! only $30 </p>
+                  <p class="card-text"><small class="text-body-secondary">Last updated 12 mins ago</small></p>
+                </div>
+                <p class="mx-5  text-capitalize text-success" id="tot"></p>
+                
+
+                <div class="conrainer d-flex mx-5">
+                  <span id="inc" class="btn btn-outline-primary mx-3 number">+</span>
+                  <span id="amount" class="btn btn-outline-success  number">1</span>
+                  <span id="dec" class="btn btn-outline-primary mx-3 number" >-</span>
+                  
+                 
+                </div>
+                  <a href="payment.html"><button class="btn btn-outline-primary text-center text-capitalize mx-5 mt-3">order now </button></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </section>
+
+    <section class="container-fluid mt-5">
+      <div class="row">
+          <div class="col-lg-4 col-12">
+              <h1><i class="fa-solid fa-lock"></i></h1>
+              <h1 class="fs-4 text-start text-capitalize my-lg-4 img-fluid">secure payment system</h1>
+              <ul class="list-group">
+                <li class="w-5 img-fluid "><p><span>Bank-level security: </span>Our payment system employs industry-leading encryption protocols to safeguard your sensitive information, ensuring your transactions are protected from unauthorized access.</p></li>
+                <li class="w-5 img-fluid "> <p class=><span> Fraud detection:</span> Rest easy knowing that our advanced fraud detection measures are constantly monitoring transactions to detect and prevent any suspicious activity, providing an extra layer of security for your peace of mind.</p></li>
+              </ul>
+
+                
+          </div>
+          <div class="col-lg-4 col-12">
+              <h1><i class="fa-solid fa-truck-fast"></i></h1>
+              <h1 class="fs-4 text-start my-lg-4 img-fluid"> Free Delivery</h1>
+              <ul class="list-group">
+                <li class="w-5 img-fluid "><p class="w-5 img-fluid "><span> Limited time offer:</span> Don't miss out on the chance to get your favorite items delivered to you for free. Shop now before this deal ends!</p></li>
+                <li class="w-5 img-fluid "><p class="w-5 img-fluid"> <span> No minimum purchase required:</span>  Whether you're stocking up on essentials or treating yourself to something special, enjoy the convenience of free delivery on all orders, big or small.</p></li>
+              </ul>
+
+
+          </div>
+          <div class="col-lg-4 col-12">
+              <h1><i class="fa-solid fa-key"></i></h1>
+              <h1 class="fs-4 text-start text-capitalize my-lg-4 img-fluid">coupon system</h1>
+              <ul class="list-group ">
+                <li class="w-5 img-fluid "><p ><span>Discount Variability:</span> Design the coupon system to offer different types of discounts, such as percentage-based discounts, fixed amount discounts, or even free shipping, to appeal to a variety of customers and encourage purchases.</p></li>
+                <li class="w-5 img-fluid "><p ><span>Limited-Time Offers:</span>  Create a sense of urgency by setting expiration dates on coupons. This motivates customers to make a purchase sooner rather than later, increasing the likelihood of conversion and reducing the risk of unused coupons.</p></li>
+              </ul>
+
+                
+              
+          </div>
+         <div class="container-fluid">
+          <div class="row">
+              
+              <div class="col-12 col-md-6">
+                  <h1 class="fs-4 text-start text-capitalize my-lg-4 img-fluid">follow on us..!<i class="fa-solid fa-paper-plane mx-md-5 mx-2"></i></h1>
+                  
+              </div>
+              <div class="col-12 col-md-6 my-lg-6 my-2 follow">
+                  <h1><i class="fa-brands fa-github mx-1 mx-lg-5"></i>
+                  <i class="fa-brands fa-square-whatsapp "></i>
+                  <i class="fa-brands fa-instagram mx-lg-5 mx-1"></i>
+                  <i class="fa-brands fa-youtube "></i>
+                  <i class="fa-brands fa-facebook mx-1 mx-lg-5"></i>
+                  <i class="fa-brands fa-twitter "></i></h1>
+                  
+                  
+              </div>
+
+          </div>
+         </div>
+      </div>
+  </section>
+  
+   
+
+
+  
+  <div class="conrainer">
+ 
+   
+  </div>
+
+
+
+  <script src="ottal.js"></script>
+    
+
+
+
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+      integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

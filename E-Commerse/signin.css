@@ -1,0 +1,21 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h2{
+    color: whitesmoke;
+    font-weight: 700;
+}
+
+
+.flex-lg-column .btn{
+    width: 200px;
+    margin-bottom: 20px;
+} 
+.flex-lg-column input{
+    width: 500px;
+}
+
+.offcanvas {
+    width: 700px !important;
+}

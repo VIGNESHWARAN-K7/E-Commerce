@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: capitalize;
+    font-size: 21px;
+}
+img{
+    height: 70px;
+    /* width: 0px; */
+}
